@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<img src="./.readme/noroff-light.png" width="160" align="right">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# JS Frameworks - Module Assignment 1
 
-## Available Scripts
+# Brief
 
-In the project directory, you can run:
+Create a new app using Create React App.
 
-### `yarn start`
+You can create an app inside the current folder using:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+npx create-react-app .
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Level 1 is required.
 
-### `yarn test`
+Level 2 is optional.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can use a UI library like React Bootstrap or style it all on your own. You can use Sass, CSS Modules, Styled Components or Tailwind, but the app must be responsive (including having a responsive menu).
 
-### `yarn build`
+Regarding UI libraries, the tutors can only assist with React Bootstrap.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can use lorem ipsum for all text except menu items and headings.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Level 1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The site should have 4 "pages":
 
-### `yarn eject`
+- Home - route: "/"
+- Portfolio - route: "/my-portfolio"
+- About - route: "/about"
+- Contact - route: "/contact-me"
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+All pages should make use of a `Heading` component for the `h1` element on the page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Home page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This should include a heading and an image imported and rendered.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Portfolio page
 
-## Learn More
+This should include a heading and a list.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### About page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This should include a heading and a paragraph of text.
 
-### Code Splitting
+#### Contact page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This should include a heading and an address.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Level 2
 
-### Making a Progressive Web App
+#### Home page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This should include a heading and an image slider/carousel.
 
-### Advanced Configuration
+#### Portfolio page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This should include a heading and a grid of images with captions.
 
-### Deployment
+#### About page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This should include a heading and a paragraph of text.
 
-### `yarn build` fails to minify
+#### Contact page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This should include a heading, an address and a contact form.
