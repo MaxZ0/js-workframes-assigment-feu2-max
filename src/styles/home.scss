@@ -1,0 +1,72 @@
+$smokeyBlack: #12130f;
+$emerald: #5b9279;
+$etonBlue: #8fcb9b;
+$platimun: #eae6e5;
+$middleGrey: #8f8073;
+
+body {
+  font-family: sans-serif;
+  background: $smokeyBlack;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 12rem;
+  color: $etonBlue;
+}
+
+h2 {
+  font-size: 5rem;
+  color: $emerald;
+}
+
+p {
+  color: $platimun;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $emerald;
+}
+
+.list-font {
+  color: $platimun;
+}
+
+.container-banner {
+  margin: 32px 0px;
+}
+
+.margin-banner {
+  text-align: center;
+}
+
+.banner-button {
+  margin: 0 auto;
+  padding: 16px;
+  background-color: $platimun;
+  width: 7%;
+  border-radius: 13px;
+  color: #12130f;
+}
+
+.banner-button:hover {
+  margin: 0 auto;
+  padding: 16px;
+  background-color: $middleGrey;
+  width: 7%;
+  border-radius: 13px;
+  color: #12130f;
+}
+
+.center {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.bg-test {
+  background-color: $platimun;
+  border-radius: 0px 0px 13px 13px;
+}
