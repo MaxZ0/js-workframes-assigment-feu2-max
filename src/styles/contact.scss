@@ -1,0 +1,22 @@
+$smokeyBlack: #12130f;
+$emerald: #5b9279;
+$etonBlue: #8fcb9b;
+$platimun: #eae6e5;
+$middleGrey: #8f8073;
+
+body {
+  color: $platimun;
+}
+
+.container {
+  margin: 32px auto;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  margin-right: 16px;
+}
