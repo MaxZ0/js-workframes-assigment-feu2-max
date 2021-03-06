@@ -36,29 +36,13 @@ p {
 }
 
 .container-banner {
-  margin: 32px 0px;
+  margin: 32px 20%;
+  display: flex;
+  width: 100%;
 }
 
 .margin-banner {
   text-align: center;
-}
-
-.banner-button {
-  margin: 0 auto;
-  padding: 16px;
-  background-color: $platimun;
-  width: 7%;
-  border-radius: 13px;
-  color: #12130f;
-}
-
-.banner-button:hover {
-  margin: 0 auto;
-  padding: 16px;
-  background-color: $middleGrey;
-  width: 7%;
-  border-radius: 13px;
-  color: #12130f;
 }
 
 .center {
@@ -69,4 +53,11 @@ p {
 .bg-test {
   background-color: $platimun;
   border-radius: 0px 0px 13px 13px;
+}
+
+.img-me {
+  width: 30%;
+  height: 30%;
+  border-radius: 13px;
+  margin-left: 5%;
 }

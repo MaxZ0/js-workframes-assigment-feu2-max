@@ -1,0 +1,27 @@
+$smokeyBlack: #12130f;
+$emerald: #5b9279;
+$etonBlue: #8fcb9b;
+$platimun: #eae6e5;
+$middleGrey: #8f8073;
+
+li {
+  color: $emerald;
+  list-style-type: upper-roman;
+}
+
+h3 {
+  color: $etonBlue;
+}
+
+h4 {
+  color: $emerald;
+}
+
+.container-list {
+  margin: 32px auto;
+  width: 100%;
+}
+
+p {
+  color: $platimun;
+}
